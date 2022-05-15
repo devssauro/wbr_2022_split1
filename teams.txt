@@ -1,0 +1,200 @@
+==Participants==
+{{TeamCardToggleButton}}
+{{box|start|padding=2em|max-width=1000px}}
+{{TeamCard
+|team=TSM
+|p1=Sonyy|p1flag=br
+|p2=Tetis|p2flag=br
+|p3=Mike|p3flag=br
+|p4=Petroni|p4flag=br
+|p5=Leozin|p5flag=br
+
+|t2p1=Midphobia|t2p1flag=br|t2pos1=mid
+|t2p2=Pilo|t2p2flag=br|t2pos2=sup
+
+|t3p1=Kaiba|t3p1flag=pt|t3pos1=coach
+|t3p2=Danzor|t3p2flag=br|t3pos2=coach
+|t3p3=anaK|t3p3flag=br|t3pos3=assistant coach|t3p3leave=true
+|qualifier=[[Wild Tour/2021/Finals|2021 Wild Tour]]
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=Miners.gg
+|p1=Xem|p1flag=br
+|p2=Raiiku|p2flag=fr
+|p3=KoZy|p3flag=fr
+|p4=Fusion|p4flag=br
+|p5=Vilao1|p5flag=br
+
+|t2title=Staff
+|t2p1=Mathias|t2p1flag=br|t2pos1=head coach
+|t2p2=Mascarenhas|t2p2flag=br|t2pos2=strategic coach
+
+|qualifier=[[Wild Tour/2021/Finals|2021 Wild Tour]]
+|inotes={{NoteBig
+|n1=February 7th - '''Miners.gg''' acquires '''Só Agradece Esports''' spot. <ref>{{cite web |url=https://wildrift.leagueoflegends.com/pt-br/news/esports/wild-tour-brasil-2022-grupos-e-agenda-completa/|title=Wild Tour Brasil 2022: grupos e agenda completa|trans_title=Wild Tour Brazil 2022: Groups and full calendar|date=2022-02-07 |author='''Riot Games'''|publisher=Web |language={{flag/ptbr}} Portuguese}}</ref>
+|n2=February 7th - '''Miners.gg''' presents their roster. <ref>{{cite web |url=https://twitter.com/minersgg/status/1490708681045987328|title=Hora do trem passar em novos trilhos!|date=2022-02-07 |author='''Miners.gg'''|publisher=Twitter |language={{flag/ptbr}} Portuguese}}</ref>
+}}
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=DreamMax e-Sports
+|image=DreamMax e-Sports logo.png
+|p1=LeonHard|p1flag=br
+|p2=zero8|p2flag=br
+|p3=MouseGOD|p3flag=br
+|p4=Stark|p4flag=br
+|p5=Nix|p5flag=br
+
+|t2p1=Orochi|t2p1flag=br|t2pos1=adc
+
+|t3p1=Shad|t3p1flag=br|t3pos1=head coach
+|qualifier=[[Wild Tour/2021/Finals|2021 Wild Tour]]
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=Liberty
+|p1=Freaks|p1flag=br
+|p2=Kinzin|p2flag=br
+|p3=Kona|p3flag=br
+|p4=Boss|p4link=Boss (Brazilian player)|p4flag=br
+|p5=ManoFrizer|p5flag=br
+|t2title=Staff
+|t2p1=Higuree|t2p1flag=br|t2pos1=coach
+|t2p2=Julião|t2p2flag=br|t2pos2=coach
+|qualifier=[[Wild Tour/2021/Finals|2021 Wild Tour]]
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=B4 Esports
+|p1=9Norvas|p1flag=br
+|p2=Letter|p2flag=br
+|p3=BENRAS|p3flag=br
+|p4=ySacer|p4flag=br
+|p5=CarliTo|p5flag=br
+
+|t2p1=Skyneon|t2p1flag=br|t2pos1=dragon
+
+|t3p1=Djoko|t3p1flag=br|t3pos1=head coach
+|t3p2=void|t3p2flag=br|t3pos2=coach
+
+|qualifier=[[/Open Qualifier/1|1st Qualifier]]
+|inotes={{NoteBig
+|n1=January 25th - '''B4 Esports''' acquires '''Calça Angelical''' roster. <ref>{{cite web |url=https://twitter.com/b4ofc/status/1485990849372688385|title=É oficial, a Calça Angelical agora é B4. |date=2022-01-25 |author='''B4 Esports''' |publisher=Twitter |language={{flag/ptbr}} Portuguese}}</ref>
+}}
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=Cruzeiro Esports
+|p1=Dohko|p1flag=br
+|p2=AngraOne|p2flag=br
+|p3=One|p3flag=br
+|p4=Akihito|p4flag=br
+|p5=Mithy|p5flag=br
+
+|t2p1=gB|t2p1flag=br|t2pos1=jungle
+|t2p2=Angel|t2p2flag=br|t2pos2=dragon
+
+|t3p1=ScorpioN|t3p1flag=br|t3pos1=head coach
+
+|qualifier=[[/Open Qualifier/1|1st Qualifier]]
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=Keyd Stars
+|p1=Odyceuz|p1flag=br
+|p2=SrMusTer|p2flag=br
+|p3=Katrina|p3flag=br
+|p4=NoMercy|p4flag=br
+|p5=Maynah|p5flag=br
+
+|t2p1=LorD|t2p1flag=br|t2pos1=top
+|t2p2=Slash|t2p2flag=br|t2pos2=jungle
+
+|t3p1=bielz|t3p1flag=br|t3pos1=coach|
+|t3p2=Blind.07|t3p2flag=br|t3pos2=coach|t3p2leave=true
+
+|qualifier=[[/Open Qualifier/1|1st Qualifier]]
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=Omegha E-sports
+|image=Omegha Esports.png
+|p1=Huya|p1flag=br
+|p2=Benignus|p2flag=br
+|p3=suitS|p3flag=br
+|p4=Aomine|p4flag=br
+|p5=Seelinah|p5flag=br
+
+|t2p1=Feex|t2p1flag=br|t2pos1=sup
+
+|t3p1=Wonder|t3p1flag=br|t3pos1=head coach
+|qualifier=[[/Open Qualifier/1|1st Qualifier]]
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=Los Grandes
+|p1=Padaa99|p1flag=br
+|p2=Ranker|p2flag=br
+|p3=Shumas|p3flag=br
+|p4=irotah|p4flag=br
+|p5=Téo|p5flag=br
+
+|t2p1=Zerg|t2p1flag=br|t2pos1=sup
+
+|t3p1=Hawk|t3p1flag=br|t3pos1=head coach
+|t3p2=Galileu|t3p2flag=br|t3pos2=strategic coach
+
+|qualifier=[[/Open Qualifier/2|2nd Qualifier]]
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=Full House Gaming
+|p1=InZone|p1flag=br
+|p2=GON|p2flag=br
+|p3=Luskinhas|p3flag=br
+|p4=GuiZero|p4flag=br
+|p5=Thy|p5flag=br
+
+|t2p1=Barata|t2p1flag=br|t2pos1=baron|t2p1leave=true
+|t2p2=BM|t2p2flag=br|t2pos2=mid
+|t2p3=Peixoto|t2p3flag=br|t2pos3=sup
+
+|t3p1=Barretti|t3p1flag=br|t3pos1=head coach
+|t3p2=VSM|t3p2flag=br|t3pos2=assistant coach
+|t3p3=Barba|t3p3flag=br|t3pos3=head coach|t3p3leave=true
+
+|qualifier=[[/Open Qualifier/2|2nd Qualifier]]
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=XIS
+|p1=Elwind|p1flag=br
+|p2=Tempest|p2flag=br
+|p3=Thae|p3flag=br
+|p4=cr7dabaixada|p4flag=br
+|p5=TaZy|p5flag=br
+
+|t2p1=Chouhen|t2p1flag=br|t2pos1=top
+|t2p2=MixRJ|t2p2flag=br|t2pos2=jungle|t2p2leave=true
+
+|t3p1=Rhels|t3p1flag=br|t3pos1=head coach
+|t3p2=Eagle|t3p2flag=br|t3pos2=head coach|t3p2leave=true
+|qualifier=[[/Open Qualifier/2|2nd Qualifier]]
+}}
+{{box|break|padding=2em}}
+{{TeamCard
+|team=LOOPS
+|p1=Andrade|p1flag=br
+|p2=Luffy|p2flag=br
+|p3=Arceus|p3flag=br
+|p4=Cadore|p4flag=br
+|p5=Blake|p5flag=br
+
+|t2p1=Rework|t2p1flag=br|t2pos1=mid
+
+|t3p1=Chabo|t3p1flag=br|t3pos1=head coach
+|t3p2=TiaMaga|t3p2flag=br|t3pos2=assistant coach
+|qualifier=[[/Open Qualifier/2|2nd Qualifier]]
+}}
+{{box|end|padding=2em}}

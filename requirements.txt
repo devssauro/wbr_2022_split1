@@ -1,0 +1,2 @@
+SQLAlchemy~=1.4.36
+wikitextparser~=0.49.1

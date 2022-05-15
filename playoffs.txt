@@ -1,0 +1,541 @@
+==Results==
+{{Bracket|Bracket/8U4L2DSL1D|id=6zUaShoXtW
+
+
+<!-- Upper Bracket Quarter-Finals -->
+|R1M1={{Match
+    |bestof=3
+    |date=April 29, 2022 - 13:12 {{Abbr/BRT}}|finished=true|mvp=Katrina
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|tsm}}
+    |opponent2={{TeamOpponent|keyd stars}}
+    |map1={{Map
+        |team1side=blue|team2side=red|length=19:56|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=fiora|t1c2=jax|t1c3=karma|t1c4=garen|t1c5=yuumi
+        |t2c1=camille|t2c2=kha'zix|t2c3=diana|t2c4=corki|t2c5=galio
+        <!-- Champion/Hero bans -->
+        |t1b1=rakan|t1b2=ziggs|t1b3=olaf|t1b4=jayce|t1b5=vayne
+        |t2b1=senna|t2b2=gragas|t2b3=ashe|t2b4=ezreal|t2b5=shen
+    }}
+    |map2={{Map
+        |team1side=red|team2side=blue|length=19:06|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=darius|t1c2=olaf|t1c3=garen|t1c4=ezreal|t1c5=thresh
+        |t2c1=camille|t2c2=kha'zix|t2c3=singed|t2c4=ashe|t2c5=galio
+        <!-- Champion/Hero bans -->
+        |t1b1=karma|t1b2=ziggs|t1b3=rakan|t1b4=twisted fate|t1b5=jayce
+        |t2b1=gragas|t2b2=senna|t2b3=yuumi|t2b4=shen|t2b5=corki
+    }}
+    |map3={{Map
+        |team1side=blue|team2side=red|length=19:21|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=karma|t1c2=lee sin|t1c3=riven|t1c4=kai'sa|t1c5=galio
+        |t2c1=renekton|t2c2=jax|t2c3=zed|t2c4=ashe|t2c5=rakan
+        <!-- Champion/Hero bans -->
+        |t1b1=ziggs|t1b2=olaf|t1b3=camille|t1b4=kha'zix|t1b5=rengar
+        |t2b1=gragas|t2b2=senna|t2b3=yuumi|t2b4=diana|t2b5=garen
+    }}
+}}
+|R1M2={{Match
+    |date=April 29, 2022 - 15:20 {{Abbr/BRT}}|finished=true|mvp=Boss
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|miners.gg}}
+    |opponent2={{TeamOpponent|liberty}}
+    |map1={{Map
+        |team1side=red|team2side=blue|length=25:22|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=garen|t1c2=xin zhao|t1c3=ahri|t1c4=corki|t1c5=leona
+        |t2c1=jayce|t2c2=wukong|t2c3=orianna|t2c4=kai'sa|t2c5=galio
+        <!-- Champion/Hero bans -->
+        |t1b1=jax|t1b2=sett|t1b3=karma|t1b4=diana|t1b5=ziggs
+        |t2b1=ashe|t2b2=olaf|t2b3=yuumi|t2b4=rakan|t2b5=thresh
+    }}
+    |map2={{Map
+        |team1side=blue|team2side=red|length=21:05|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=shen|t1c2=vi|t1c3=ziggs|t1c4=ashe|t1c5=rakan
+        |t2c1=garen|t2c2=xin zhao|t2c3=diana|t2c4=lucian|t2c5=sett
+        <!-- Champion/Hero bans -->
+        |t1b1=karma|t1b2=jayce|t1b3=galio|t1b4=corki|t1b5=kai'sa
+        |t2b1=olaf|t2b2=yuumi|t2b3=jax|t2b4=ahri|t2b5=orianna
+    }}
+    |map3={{Map
+        |team1side=|team2side=|length=|winner=
+        <!-- Champion/Hero picks -->
+        |t1c1=|t1c2=|t1c3=|t1c4=|t1c5=
+        |t2c1=|t2c2=|t2c3=|t2c4=|t2c5=
+        <!-- Champion/Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+    }}
+}}
+|R1M3={{Match
+    |date=April 29, 2022 - 16:50 {{Abbr/BRT}}|finished=true|mvp=Aomine
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|los grandes}}
+    |opponent2={{TeamOpponent|omegha e-sports}}
+    |map1={{Map
+        |team1side=blue|team2side=red|length=22:57|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=jayce|t1c2=olaf|t1c3=galio|t1c4=corki|t1c5=alistar
+        |t2c1=graves|t2c2=nunu|t2c3=karma|t2c4=ashe|t2c5=sona
+        <!-- Champion/Hero bans -->
+        |t1b1=yuumi|t1b2=garen|t1b3=ziggs|t1b4=sett|t1b5=jax
+        |t2b1=diana|t2b2=shen|t2b3=gragas|t2b4=camille|t2b5=darius
+    }}
+    |map2={{Map
+        |team1side=blue|team2side=red|length=25:05|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=renekton|t1c2=olaf|t1c3=orianna|t1c4=ezreal|t1c5=yuumi
+        |t2c1=graves|t2c2=jarvan iv|t2c3=veigar|t2c4=ashe|t2c5=karma
+        <!-- Champion/Hero bans -->
+        |t1b1=ziggs|t1b2=garen|t1b3=gragas|t1b4=nunu|t1b5=sona
+        |t2b1=diana|t2b2=shen|t2b3=rakan|t2b4=lucian|t2b5=kai'sa
+    }}
+    |map3={{Map
+        |team1side=red|team2side=blue|length=16:23|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=riven|t1c2=xin zhao|t1c3=ahri|t1c4=ashe|t1c5=yuumi
+        |t2c1=shen|t2c2=rengar|t2c3=orianna|t2c4=draven|t2c5=thresh
+        <!-- Champion/Hero bans -->
+        |t1b1=ziggs|t1b2=garen|t1b3=nunu|t1b4=sona|t1b5=lucian
+        |t2b1=diana|t2b2=graves|t2b3=olaf|t2b4=jayce|t2b5=darius
+    }}
+}}
+|R1M4={{Match
+    |date=April 29, 2022 - 18:57 {{Abbr/BRT}}|finished=true|mvp=ySacer
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|b4 esports}}
+    |opponent2={{TeamOpponent|dmx}}
+    |map1={{Map
+        |team1side=blue|team2side=red|length=19:13|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=sett|t1c2=xin zhao|t1c3=ziggs|t1c4=vayne|t1c5=braum
+        |t2c1=fiora|t2c2=wukong|t2c3=diana|t2c4=varus|t2c5=galio
+        <!-- Champion/Hero bans -->
+        |t1b1=rakan|t1b2=camille|t1b3=olaf|t1b4=kai'sa|t1b5=ezreal
+        |t2b1=yuumi|t2b2=ashe|t2b3=shen|t2b4=lulu|t2b5=karma
+    }}
+    |map2={{Map
+        |team1side=blue|team2side=red|length=16:33|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=renekton|t1c2=xin zhao|t1c3=ziggs|t1c4=vayne|t1c5=karma
+        |t2c1=sett|t2c2=jarvan iv|t2c3=diana|t2c4=kai'sa|t2c5=thresh
+        <!-- Champion/Hero bans -->
+        |t1b1=camille|t1b2=rakan|t1b3=olaf|t1b4=galio|t1b5=wukong
+        |t2b1=yuumi|t2b2=ashe|t2b3=shen|t2b4=lulu|t2b5=braum
+    }}
+}}
+
+<!-- Upper Bracket Semi-Finals -->
+|R2M1={{Match
+    |date=April 30, 2022 - 16:49 {{Abbr/BRT}}|finished=true|mvp=Boss
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|keyd stars}}
+    |opponent2={{TeamOpponent|liberty}}
+    |map1={{Map
+        |team1side=blue|team2side=red|length=18:23|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=camille|t1c2=kha'zix|t1c3=zed|t1c4=ashe|t1c5=galio
+        |t2c1=jayce|t2c2=xin zhao|t2c3=garen|t2c4=corki|t2c5=rakan
+        <!-- Champion/Hero bans -->
+        |t1b1=sett|t1b2=jax|t1b3=olaf|t1b4=orianna|t1b5=ahri
+        |t2b1=ziggs|t2b2=seraphine|t2b3=karma|t2b4=wukong|t2b5=diana
+    }}
+    |map2={{Map
+        |team1side=blue|team2side=red|length=18:54|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=camille|t1c2=fiora|t1c3=garen|t1c4=corki|t1c5=rakan
+        |t2c1=riven|t2c2=xin zhao|t2c3=karma|t2c4=kai'sa|t2c5=leona
+        <!-- Champion/Hero bans -->
+        |t1b1=sett|t1b2=jax|t1b3=olaf|t1b4=orianna|t1b5=diana
+        |t2b1=ziggs|t2b2=galio|t2b3=ashe|t2b4=kha'zix|t2b5=wukong
+    }}
+    |map3={{Map
+        |team1side=red|team2side=blue|length=22:08|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=renekton|t1c2=kha'zix|t1c3=diana|t1c4=corki|t1c5=rakan
+        |t2c1=camille|t2c2=xin zhao|t2c3=karma|t2c4=kai'sa|t2c5=nami
+        <!-- Champion/Hero bans -->
+        |t1b1=sett|t1b2=jax|t1b3=olaf|t1b4=leona|t1b5=alistar
+        |t2b1=ziggs|t2b2=ashe|t2b3=galio|t2b4=zed|t2b5=orianna
+    }}
+}}
+|R2M2={{Match
+    |date=April 30, 2022 - 18:48 {{Abbr/BRT}}|finished=true|mvp=suitS
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|omegha e-sports}}
+    |opponent2={{TeamOpponent|b4 esports}}
+    |map1={{Map
+        |team1side=red|team2side=blue|length=18:56|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=renekton|t1c2=nunu|t1c3=orianna|t1c4=lucian|t1c5=sona
+        |t2c1=sett|t2c2=xin zhao|t2c3=karma|t2c4=ezreal|t2c5=yuumi
+        <!-- Champion/Hero bans -->
+        |t1b1=diana|t1b2=ashe|t1b3=ziggs|t1b4=veigar|t1b5=corki
+        |t2b1=garen|t2b2=olaf|t2b3=shen|t2b4=jax|t2b5=camille
+    }}
+    |map2={{Map
+        |team1side=red|team2side=blue|length=22:24|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=shen|t1c2=gragas|t1c3=orianna|t1c4=lucian|t1c5=nami
+        |t2c1=sett|t2c2=xin zhao|t2c3=veigar|t2c4=ezreal|t2c5=yuumi
+        <!-- Champion/Hero bans -->
+        |t1b1=diana|t1b2=ashe|t1b3=ziggs|t1b4=vayne|t1b5=jayce
+        |t2b1=garen|t2b2=olaf|t2b3=nunu|t2b4=rengar|t2b5=sona
+    }}
+    |map3={{Map
+        |team1side=|team2side=|length=|winner=
+        <!-- Champion/Hero picks -->
+        |t1c1=|t1c2=|t1c3=|t1c4=|t1c5=
+        |t2c1=|t2c2=|t2c3=|t2c4=|t2c5=
+        <!-- Champion/Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+    }}
+}}
+
+<!-- Upper Bracket Final -->
+|R4M1={{Match
+    |bestof=5
+    |date=May 7, 2022 - 13:00 {{Abbr/BRT}}|finished=true|mvp=Benignus
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|liberty}}
+    |opponent2={{TeamOpponent|omegha e-sports}}
+    |map1={{Map
+        |team1side=blue|team2side=red|length=14:36|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=darius|t1c2=jax|t1c3=karma|t1c4=lucian|t1c5=sett
+        |t2c1=shen|t2c2=olaf|t2c3=lux|t2c4=ashe|t2c5=lulu
+        <!-- Champion/Hero bans -->
+        |t1b1=ziggs|t1b2=nunu|t1b3=orianna|t1b4=vayne|t1b5=ezreal
+        |t2b1=camille|t2b2=jayce|t2b3=xin zhao|t2b4=corki|t2b5=kai'sa
+    }}
+    |map2={{Map
+        |team1side=blue|team2side=red|length=17:04|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=riven|t1c2=olaf|t1c3=orianna|t1c4=kai'sa|t1c5=sett
+        |t2c1=shen|t2c2=rengar|t2c3=karma|t2c4=vayne|t2c5=sona
+        <!-- Champion/Hero bans -->
+        |t1b1=ziggs|t1b2=nunu|t1b3=ashe|t1b4=jax|t1b5=jarvan iv
+        |t2b1=camille|t2b2=jayce|t2b3=xin zhao|t2b4=lulu|t2b5=yuumi
+    }}
+    |map3={{Map
+        |team1side=blue|team2side=red|length=21:42|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=irelia|t1c2=wukong|t1c3=diana|t1c4=ashe|t1c5=sett
+        |t2c1=garen|t2c2=gragas|t2c3=karma|t2c4=lucian|t2c5=janna
+        <!-- Champion/Hero bans -->
+        |t1b1=nunu|t1b2=olaf|t1b3=shen|t1b4=sona|t1b5=lux
+        |t2b1=camille|t2b2=jayce|t2b3=xin zhao|t2b4=darius|t2b5=orianna
+    }}
+    |map4={{Map
+        |team1side=|team2side=|length=|winner=
+        <!-- Champion/Hero picks -->
+        |t1c1=|t1c2=|t1c3=|t1c4=|t1c5=
+        |t2c1=|t2c2=|t2c3=|t2c4=|t2c5=
+        <!-- Champion/Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+    }}
+    |map5={{Map
+        |team1side=|team2side=|length=|winner=
+        <!-- Champion/Hero picks -->
+        |t1c1=|t1c2=|t1c3=|t1c4=|t1c5=
+        |t2c1=|t2c2=|t2c3=|t2c4=|t2c5=
+        <!-- Champion/Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+    }}
+}}
+
+<!-- Lower Round 1 -->
+|R1M5={{Match
+    |bestof=3
+    |date=April 30, 2022 - 13:09{{Abbr/BRT}}|finished=true|mvp=KoZy
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|tsm}}
+    |opponent2={{TeamOpponent|miners.gg}}
+    |map1={{Map
+        |team1side=red|team2side=blue|length=16:30|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=garen|t1c2=rengar|t1c3=jayce|t1c4=corki|t1c5=sett
+        |t2c1=renekton|t2c2=xin zhao|t2c3=galio|t2c4=senna|t2c5=nasus
+        <!-- Champion/Hero bans -->
+        |t1b1=olaf|t1b2=ashe|t1b3=camille|t1b4=karma|t1b5=ahri
+        |t2b1=gragas|t2b2=yuumi|t2b3=jax|t2b4=shen|t2b5=rakan
+    }}
+    |map2={{Map
+        |team1side=red|team2side=blue|length=20:52|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=fiora|t1c2=kha'zix|t1c3=zed|t1c4=corki|t1c5=galio
+        |t2c1=sett|t2c2=olaf|t2c3=orianna|t2c4=xayah|t2c5=braum
+        <!-- Champion/Hero bans -->
+        |t1b1=ashe|t1b2=karma|t1b3=senna|t1b4=shen|t1b5=garen
+        |t2b1=gragas|t2b2=yuumi|t2b3=jax|t2b4=camille|t2b5=jayce
+    }}
+    |map3={{Map
+        |team1side=|team2side=|length=|winner=
+        <!-- Champion/Hero picks -->
+        |t1c1=|t1c2=|t1c3=|t1c4=|t1c5=
+        |t2c1=|t2c2=|t2c3=|t2c4=|t2c5=
+        <!-- Champion/Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+    }}
+}}
+|R1M6={{Match
+    |date=April 30, 2022 - 14:33 {{Abbr/BRT}}|finished=true|mvp=MouseGOD
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|los grandes}}
+    |opponent2={{TeamOpponent|dmx}}
+    |map1={{Map
+        |team1side=blue|team2side=red|length=19:13|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=garen|t1c2=xin zhao|t1c3=orianna|t1c4=kai'sa|t1c5=leona
+        |t2c1=jayce|t2c2=kha'zix|t2c3=corki|t2c4=ashe|t2c5=rakan
+        <!-- Champion/Hero bans -->
+        |t1b1=aurelion sol|t1b2=camille|t1b3=diana|t1b4=ahri|t1b5=darius
+        |t2b1=olaf|t2b2=yuumi|t2b3=gragas|t2b4=alistar|t2b5=galio
+    }}
+    |map2={{Map
+        |team1side=blue|team2side=red|length=29:24|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=garen|t1c2=wukong|t1c3=orianna|t1c4=kai'sa|t1c5=leona
+        |t2c1=jayce|t2c2=kha'zix|t2c3=ziggs|t2c4=ashe|t2c5=rakan
+        <!-- Champion/Hero bans -->
+        |t1b1=aurelion sol|t1b2=camille|t1b3=diana|t1b4=corki|t1b5=ahri
+        |t2b1=olaf|t2b2=yuumi|t2b3=gragas|t2b4=xin zhao|t2b5=alistar
+    }}
+    |map3={{Map
+        |team1side=blue|team2side=red|length=23:16|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=gragas|t1c2=xin zhao|t1c3=orianna|t1c4=ezreal|t1c5=rakan
+        |t2c1=jayce|t2c2=kha'zix|t2c3=veigar|t2c4=ashe|t2c5=karma
+        <!-- Champion/Hero bans -->
+        |t1b1=aurelion sol|t1b2=camille|t1b3=ziggs|t1b4=diana|t1b5=ahri
+        |t2b1=olaf|t2b2=yuumi|t2b3=garen|t2b4=alistar|t2b5=leona
+    }}
+}}
+
+<!-- Lower Bracket Quarter-Finals -->
+|R2M3={{Match
+    |date=May 1, 2022 - 13:09 {{Abbr/BRT}}|finished=true|mvp=Raiiku
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|b4 esports}}
+    |opponent2={{TeamOpponent|miners.gg}}
+    |map1={{Map
+        |team1side=red|team2side=blue|length=20:24|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=camille|t1c2=jarvan iv|t1c3=orianna|t1c4=kai'sa|t1c5=rakan
+        |t2c1=sett|t2c2=nunu|t2c3=karma|t2c4=senna|t2c5=nasus
+        <!-- Champion/Hero bans -->
+        |t1b1=olaf|t1b2=shen|t1b3=jax|t1b4=xin zhao|t1b5=wukong
+        |t2b1=diana|t2b2=vayne|t2b3=ashe|t2b4=galio|t2b5=yuumi
+    }}
+    |map2={{Map
+        |team1side=red|team2side=blue|length=22:09|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=sett|t1c2=rengar|t1c3=ziggs|t1c4=corki|t1c5=galio
+        |t2c1=shen|t2c2=xin zhao|t2c3=karma|t2c4=lucian|t2c5=nami
+        <!-- Champion/Hero bans -->
+        |t1b1=olaf|t1b2=jax|t1b3=senna|t1b4=alistar|t1b5=rakan
+        |t2b1=diana|t2b2=vayne|t2b3=ashe|t2b4=fiora|t2b5=jayce
+    }}
+    |map3={{Map
+        |team1side=|team2side=|length=|winner=
+        <!-- Champion/Hero picks -->
+        |t1c1=|t1c2=|t1c3=|t1c4=|t1c5=
+        |t2c1=|t2c2=|t2c3=|t2c4=|t2c5=
+        <!-- Champion/Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+    }}
+}}
+|R2M4={{Match
+    |date=May 1, 2022 - 14:42 {{Abbr/BRT}}|finished=true|mvp=Katrina
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|keyd stars}}
+    |opponent2={{TeamOpponent|dmx}}
+    |map1={{Map
+        |team1side=red|team2side=blue|length=19:18|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=garen|t1c2=kha'zix|t1c3=singed|t1c4=ziggs|t1c5=rakan
+        |t2c1=fiora|t2c2=jax|t2c3=aurelion sol|t2c4=vayne|t2c5=karma
+        <!-- Champion/Hero bans -->
+        |t1b1=ashe|t1b2=yuumi|t1b3=camille|t1b4=ezreal|t1b5=varus
+        |t2b1=nasus|t2b2=galio|t2b3=olaf|t2b4=renekton|t2b5=kai'sa
+    }}
+    |map2={{Map
+        |team1side=red|team2side=blue|length=19:40|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=garen|t1c2=jax|t1c3=jayce|t1c4=ziggs|t1c5=galio
+        |t2c1=sett|t2c2=olaf|t2c3=orianna|t2c4=corki|t2c5=rakan
+        <!-- Champion/Hero bans -->
+        |t1b1=ashe|t1b2=yuumi|t1b3=camille|t1b4=kai'sa|t1b5=vayne
+        |t2b1=kha'zix|t2b2=nasus|t2b3=rengar|t2b4=singed|t2b5=zed
+    }}
+}}
+
+<!-- Lower Bracket Semi-Finals -->
+|R3M1={{Match
+    |date=May 7, 2022 - 15:20 {{Abbr/BRT}}|finished=true|mvp=Maynah
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|miners.gg}}
+    |opponent2={{TeamOpponent|keyd stars}}
+    |map1={{Map
+        |team1side=blue|team2side=red|length=19:32|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=shen|t1c2=olaf|t1c3=diana|t1c4=ashe|t1c5=braum
+        |t2c1=camille|t2c2=rengar|t2c3=garen|t2c4=morgana|t2c5=gragas
+        <!-- Champion/Hero bans -->
+        |t1b1=singed|t1b2=galio|t1b3=ziggs|t1b4=jayce|t1b5=zed
+        |t2b1=karma|t2b2=senna|t2b3=yuumi|t2b4=lulu|t2b5=orianna
+    }}
+    |map2={{Map
+        |team1side=red|team2side=blue|length=19:39|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=camille|t1c2=olaf|t1c3=orianna|t1c4=xayah|t1c5=sett
+        |t2c1=renekton|t2c2=rengar|t2c3=jayce|t2c4=morgana|t2c5=galio
+        <!-- Champion/Hero bans -->
+        |t1b1=singed|t1b2=ziggs|t1b3=ashe|t1b4=garen|t1b5=jax
+        |t2b1=karma|t2b2=senna|t2b3=yuumi|t2b4=lulu|t2b5=lucian
+    }}
+    |map3={{Map
+        |team1side=|team2side=|length=|winner=
+        <!-- Champion/Hero picks -->
+        |t1c1=|t1c2=|t1c3=|t1c4=|t1c5=
+        |t2c1=|t2c2=|t2c3=|t2c4=|t2c5=
+        <!-- Champion/Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+    }}
+}}
+
+<!-- Lower Bracket Final -->
+|R4M2={{Match
+    |bestof=5
+    |date=May 7, 2022 - 16:50 {{Abbr/BRT}}|finished=true|mvp=Maynah
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|liberty}}
+    |opponent2={{TeamOpponent|keyd stars}}
+    |map1={{Map
+        |team1side=blue|team2side=red|length=20:22|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=jax|t1c2=wukong|t1c3=jayce|t1c4=corki|t1c5=leona
+        |t2c1=darius|t2c2=kha'zix|t2c3=singed|t2c4=ziggs|t2c5=nami
+        <!-- Champion/Hero bans -->
+        |t1b1=galio|t1b2=ashe|t1b3=morgana|t1b4=garen|t1b5=renekton
+        |t2b1=sett|t2b2=xin zhao|t2b3=karma|t2b4=olaf|t2b5=nunu
+    }}
+    |map2={{Map
+        |team1side=red|team2side=blue|length=15:32|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=camille|t1c2=wukong|t1c3=seraphine|t1c4=kai'sa|t1c5=nami
+        |t2c1=darius|t2c2=jax|t2c3=zed|t2c4=ziggs|t2c5=gragas
+        <!-- Champion/Hero bans -->
+        |t1b1=galio|t1b2=ashe|t1b3=singed|t1b4=renekton|t1b5=kha'zix
+        |t2b1=karma|t2b2=xin zhao|t2b3=sett|t2b4=orianna|t2b5=diana
+    }}
+    |map3={{Map
+        |team1side=blue|team2side=red|length=18:23|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=camille|t1c2=wukong|t1c3=orianna|t1c4=kai'sa|t1c5=nami
+        |t2c1=renekton|t2c2=olaf|t2c3=corki|t2c4=nasus|t2c5=sona
+        <!-- Champion/Hero bans -->
+        |t1b1=galio|t1b2=ashe|t1b3=singed|t1b4=galio|t1b5=jayce
+        |t2b1=karma|t2b2=xin zhao|t2b3=sett|t2b4=rakan|t2b5=seraphine
+    }}
+    |map4={{Map
+        |team1side=red|team2side=blue|length=19:47|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=camille|t1c2=nunu|t1c3=seraphine|t1c4=corki|t1c5=leona
+        |t2c1=darius|t2c2=olaf|t2c3=jayce|t2c4=nasus|t2c5=sona
+        <!-- Champion/Hero bans -->
+        |t1b1=galio|t1b2=ashe|t1b3=singed|t1b4=renekton|t1b5=garen
+        |t2b1=karma|t2b2=xin zhao|t2b3=sett|t2b4=wukong|t2b5=jarvan iv
+    }}
+    |map5={{Map
+        |team1side=blue|team2side=red|length=18:25|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=sett|t1c2=jarvan iv|t1c3=diana|t1c4=corki|t1c5=seraphine
+        |t2c1=garen|t2c2=rengar|t2c3=yasuo|t2c4=ziggs|t2c5=rakan
+        <!-- Champion/Hero bans -->
+        |t1b1=galio|t1b2=ashe|t1b3=singed|t1b4=olaf|t1b5=wukong
+        |t2b1=karma|t2b2=xin zhao|t2b3=camille|t2b4=riven|t2b5=nunu
+    }}
+}}
+
+<!-- Grand Final -->
+|R5M1={{Match
+    |bestof=7
+    |date=May 8, 2022 - 13:15 {{Abbr/BRT}}|finished=true|mvp=Huya
+    |twitch=WildRiftBR|youtube=Wildriftesports|nimo=WildRiftBR
+    |opponent1={{TeamOpponent|omegha e-sports}}
+    |opponent2={{TeamOpponent|keyd stars}}
+    |map1={{Map
+        |team1side=red|team2side=blue|length=15:35|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=shen|t1c2=olaf|t1c3=kayle|t1c4=vayne|t1c5=nami
+        |t2c1=camille|t2c2=rengar|t2c3=corki|t2c4=ziggs|t2c5=galio
+        <!-- Champion/Hero bans -->
+        |t1b1=nasus|t1b2=kha'zix|t1b3=ashe|t1b4=zed|t1b5=singed
+        |t2b1=karma|t2b2=yuumi|t2b3=lulu|t2b4=janna|t2b5=orianna
+    }}
+    |map2={{Map
+        |team1side=red|team2side=blue|length=19:30|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=renekton|t1c2=mundo|t1c3=orianna|t1c4=draven|t1c5=janna
+        |t2c1=garen|t2c2=jax|t2c3=singed|t2c4=morgana|t2c5=galio
+        <!-- Champion/Hero bans -->
+        |t1b1=nasus|t1b2=ashe|t1b3=ziggs|t1b4=kha'zix|t1b5=rengar
+        |t2b1=karma|t2b2=yuumi|t2b3=lulu|t2b4=nunu|t2b5=shen
+    }}
+    |map3={{Map
+        |team1side=blue|team2side=red|length=21:40|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=shen|t1c2=xin zhao|t1c3=orianna|t1c4=draven|t1c5=thresh
+        |t2c1=jarvan iv|t2c2=rengar|t2c3=zed|t2c4=ashe|t2c5=blitzcrank
+        <!-- Champion/Hero bans -->
+        |t1b1=nasus|t1b2=camille|t1b3=ziggs|t1b4=rakan|t1b5=galio
+        |t2b1=karma|t2b2=yuumi|t2b3=lulu|t2b4=nunu|t2b5=mundo
+    }}
+    |map4={{Map
+        |team1side=red|team2side=blue|length=18:13|winner=2
+        <!-- Champion/Hero picks -->
+        |t1c1=jax|t1c2=nunu|t1c3=lux|t1c4=vayne|t1c5=sona
+        |t2c1=camille|t2c2=olaf|t2c3=corki|t2c4=ziggs|t2c5=shen
+        <!-- Champion/Hero bans -->
+        |t1b1=ashe|t1b2=rengar|t1b3=kha'zix|t1b4=zed|t1b5=galio
+        |t2b1=karma|t2b2=yuumi|t2b3=lulu|t2b4=janna|t2b5=nami
+    }}
+    |map5={{Map
+        |team1side=red|team2side=blue|length=20:49|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=garen|t1c2=kha'zix|t1c3=corki|t1c4=ezreal|t1c5=galio
+        |t2c1=fiora|t2c2=olaf|t2c3=jayce|t2c4=ziggs|t2c5=shen
+        <!-- Champion/Hero bans -->
+        |t1b1=ashe|t1b2=rengar|t1b3=camille|t1b4=singed|t1b5=darius
+        |t2b1=karma|t2b2=yuumi|t2b3=lulu|t2b4=orianna|t2b5=lux
+    }}
+    |map6={{Map
+        |team1side=blue|team2side=red|length=23:18|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=garen|t1c2=gragas|t1c3=lux|t1c4=ezreal|t1c5=galio
+        |t2c1=renekton|t2c2=kha'zix|t2c3=corki|t2c4=ziggs|t2c5=rakan
+        <!-- Champion/Hero bans -->
+        |t1b1=camille|t1b2=rengar|t1b3=ashe|t1b4=yasuo|t1b5=zed
+        |t2b1=karma|t2b2=yuumi|t2b3=lulu|t2b4=nunu|t2b5=mundo
+    }}
+    |map7={{Map
+        |team1side=blue|team2side=red|length=27:19|winner=1
+        <!-- Champion/Hero picks -->
+        |t1c1=shen|t1c2=xin zhao|t1c3=lux|t1c4=ezreal|t1c5=galio
+        |t2c1=renekton|t2c2=lee sin|t2c3=yasuo|t2c4=ziggs|t2c5=rakan
+        <!-- Champion/Hero bans -->
+        |t1b1=rengar|t1b2=camille|t1b3=ashe|t1b4=gragas|t1b5=darius
+        |t2b1=karma|t2b2=yuumi|t2b3=garen|t2b4=nunu|t2b5=olaf
+    }}
+}}
+}}
