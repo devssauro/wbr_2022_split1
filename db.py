@@ -66,8 +66,10 @@ class MatchupMap(Base):
                 red_baron_deaths, red_jungle_deaths, red_mid_deaths, red_dragon_deaths, red_sup_deaths,
                 blue_baron_assists, blue_jungle_assists, blue_mid_assists, blue_dragon_assists, blue_sup_assists,
                 red_baron_assists, red_jungle_assists, red_mid_assists, red_dragon_assists, red_sup_assists,
-                blue_baron_total_dmg, blue_jungle_total_dmg, blue_mid_total_dmg, blue_dragon_total_dmg, blue_sup_total_dmg,
-                red_baron_total_dmg, red_jungle_total_dmg, red_mid_total_dmg, red_dragon_total_dmg, red_sup_total_dmg,
+                blue_baron_dmg_taken, blue_jungle_dmg_taken, blue_mid_dmg_taken, blue_dragon_dmg_taken, blue_sup_dmg_taken,
+                red_baron_dmg_taken, red_jungle_dmg_taken, red_mid_dmg_taken, red_dragon_dmg_taken, red_sup_dmg_taken,
+                blue_baron_dmg_dealt, blue_jungle_dmg_dealt, blue_mid_dmg_dealt, blue_dragon_dmg_dealt, blue_sup_dmg_dealt,
+                red_baron_dmg_dealt, red_jungle_dmg_dealt, red_mid_dmg_dealt, red_dragon_dmg_dealt, red_sup_dmg_dealt,
                 blue_baron_total_gold, blue_jungle_total_gold, blue_mid_total_gold, blue_dragon_total_gold, blue_sup_total_gold,
                 red_baron_total_gold, red_jungle_total_gold, red_mid_total_gold, red_dragon_total_gold, red_sup_total_gold,
                 blue_baron_player, blue_jungle_player, blue_mid_player, blue_dragon_player, blue_sup_player,
@@ -149,16 +151,26 @@ class MatchupMap(Base):
         self.red_mid_assists = red_mid_assists
         self.red_dragon_assists = red_dragon_assists
         self.red_sup_assists = red_sup_assists
-        self.blue_baron_total_dmg = blue_baron_total_dmg
-        self.blue_jungle_total_dmg = blue_jungle_total_dmg
-        self.blue_mid_total_dmg = blue_mid_total_dmg
-        self.blue_dragon_total_dmg = blue_dragon_total_dmg
-        self.blue_sup_total_dmg = blue_sup_total_dmg
-        self.red_baron_total_dmg = red_baron_total_dmg
-        self.red_jungle_total_dmg = red_jungle_total_dmg
-        self.red_mid_total_dmg = red_mid_total_dmg
-        self.red_dragon_total_dmg = red_dragon_total_dmg
-        self.red_sup_total_dmg = red_sup_total_dmg
+        self.blue_baron_dmg_taken = blue_baron_dmg_taken
+        self.blue_jungle_dmg_taken = blue_jungle_dmg_taken
+        self.blue_mid_dmg_taken = blue_mid_dmg_taken
+        self.blue_dragon_dmg_taken = blue_dragon_dmg_taken
+        self.blue_sup_dmg_taken = blue_sup_dmg_taken
+        self.red_baron_dmg_taken = red_baron_dmg_taken
+        self.red_jungle_dmg_taken = red_jungle_dmg_taken
+        self.red_mid_dmg_taken = red_mid_dmg_taken
+        self.red_dragon_dmg_taken = red_dragon_dmg_taken
+        self.red_sup_dmg_taken = red_sup_dmg_taken
+        self.blue_baron_dmg_dealt = blue_baron_dmg_dealt
+        self.blue_jungle_dmg_dealt = blue_jungle_dmg_dealt
+        self.blue_mid_dmg_dealt = blue_mid_dmg_dealt
+        self.blue_dragon_dmg_dealt = blue_dragon_dmg_dealt
+        self.blue_sup_dmg_dealt = blue_sup_dmg_dealt
+        self.red_baron_dmg_dealt = red_baron_dmg_dealt
+        self.red_jungle_dmg_dealt = red_jungle_dmg_dealt
+        self.red_mid_dmg_dealt = red_mid_dmg_dealt
+        self.red_dragon_dmg_dealt = red_dragon_dmg_dealt
+        self.red_sup_dmg_dealt = red_sup_dmg_dealt
         self.blue_baron_total_gold = blue_baron_total_gold
         self.blue_jungle_total_gold = blue_jungle_total_gold
         self.blue_mid_total_gold = blue_mid_total_gold
@@ -248,16 +260,26 @@ class MatchupMap(Base):
     red_mid_assists = Column(Integer, default=0)
     red_dragon_assists = Column(Integer, default=0)
     red_sup_assists = Column(Integer, default=0)
-    blue_baron_total_dmg = Column(Integer, default=0)
-    blue_jungle_total_dmg = Column(Integer, default=0)
-    blue_mid_total_dmg = Column(Integer, default=0)
-    blue_dragon_total_dmg = Column(Integer, default=0)
-    blue_sup_total_dmg = Column(Integer, default=0)
-    red_baron_total_dmg = Column(Integer, default=0)
-    red_jungle_total_dmg = Column(Integer, default=0)
-    red_mid_total_dmg = Column(Integer, default=0)
-    red_dragon_total_dmg = Column(Integer, default=0)
-    red_sup_total_dmg = Column(Integer, default=0)
+    blue_baron_dmg_taken = Column(Integer, default=0)
+    blue_jungle_dmg_taken = Column(Integer, default=0)
+    blue_mid_dmg_taken = Column(Integer, default=0)
+    blue_dragon_dmg_taken = Column(Integer, default=0)
+    blue_sup_dmg_taken = Column(Integer, default=0)
+    red_baron_dmg_taken = Column(Integer, default=0)
+    red_jungle_dmg_taken = Column(Integer, default=0)
+    red_mid_dmg_taken = Column(Integer, default=0)
+    red_dragon_dmg_taken = Column(Integer, default=0)
+    red_sup_dmg_taken = Column(Integer, default=0)
+    blue_baron_dmg_dealt = Column(Integer, default=0)
+    blue_jungle_dmg_dealt = Column(Integer, default=0)
+    blue_mid_dmg_dealt = Column(Integer, default=0)
+    blue_dragon_dmg_dealt = Column(Integer, default=0)
+    blue_sup_dmg_dealt = Column(Integer, default=0)
+    red_baron_dmg_dealt = Column(Integer, default=0)
+    red_jungle_dmg_dealt = Column(Integer, default=0)
+    red_mid_dmg_dealt = Column(Integer, default=0)
+    red_dragon_dmg_dealt = Column(Integer, default=0)
+    red_sup_dmg_dealt = Column(Integer, default=0)
     blue_baron_total_gold = Column(Integer, default=0)
     blue_jungle_total_gold = Column(Integer, default=0)
     blue_mid_total_gold = Column(Integer, default=0)
