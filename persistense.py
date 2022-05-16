@@ -12,18 +12,30 @@ def create_all_teams(data: List[dict]):
     for team in data:
         team_obj = Team()
         team_obj.name = team['team']
+        team_obj.flag = team['flag']
+        team_obj.phase = team['phase']
         session.add(team_obj)
         session.commit()
-        baron = Player(nickname=team['p1'], flag=team['p1flag'], team_id=team_obj.id, role='baron')
-        jungle = Player(nickname=team['p2'], flag=team['p2flag'], team_id=team_obj.id, role='jungle')
-        mid = Player(nickname=team['p3'], flag=team['p3flag'], team_id=team_obj.id, role='mid')
-        dragon = Player(nickname=team['p4'], flag=team['p4flag'], team_id=team_obj.id, role='dragon')
-        sup = Player(nickname=team['p5'], flag=team['p5flag'], team_id=team_obj.id, role='sup')
+        baron = Player(nickname=team['p1'], flag=team.get('p1flag'), team_id=team_obj.id, role='baron')
+        jungle = Player(nickname=team['p2'], flag=team.get('p2flag'), team_id=team_obj.id, role='jungle')
+        mid = Player(nickname=team['p3'], flag=team.get('p3flag'), team_id=team_obj.id, role='mid')
+        dragon = Player(nickname=team['p4'], flag=team.get('p4flag'), team_id=team_obj.id, role='dragon')
+        sup = Player(nickname=team['p5'], flag=team.get('p5flag'), team_id=team_obj.id, role='sup')
+
         session.add(baron)
         session.add(jungle)
         session.add(mid)
         session.add(dragon)
         session.add(sup)
+
+        substitutes = list(set([key[0:2] for key in team.keys() if key.startswith('t2')]))
+        for index, sub in enumerate(substitutes):
+            _s = f'{sub}p{index+1}'
+            session.add(Player(
+                nickname=team[_s], flag=team.get(f'{_s}flag'),
+                team_id=team_obj.id, role=team[f'{sub}pos{index+1}']
+            ))
+
     session.commit()
     session.close()
 

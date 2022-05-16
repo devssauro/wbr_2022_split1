@@ -1,8 +1,7 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, create_engine, DateTime
+from sqlalchemy import Column, Integer, Text, ForeignKey, create_engine, DateTime
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
 
-engine = create_engine('sqlite:///wildtour.db3', echo=True)
+engine = create_engine('sqlite:///icons.db3', echo=True)
 
 Base = declarative_base()
 
@@ -11,8 +10,10 @@ class Team(Base):
     __tablename__ = 'team'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    name = Column(String)
-    tag = Column(String)
+    name = Column(Text)
+    tag = Column(Text)
+    flag = Column(Text)
+    phase = Column(Text)
 
 
 class Player(Base):
@@ -25,10 +26,10 @@ class Player(Base):
         self.role = role
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    nickname = Column(String)
+    nickname = Column(Text)
     team_id = Column(Integer, ForeignKey('team.id'))
-    flag = Column(String)
-    role = Column(String)
+    flag = Column(Text)
+    role = Column(Text)
 
 
 class Matchup(Base):
@@ -42,8 +43,8 @@ class Matchup(Base):
         self.team2 = team2
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    phase = Column(String)
-    datetime = Column(String)
+    phase = Column(Text)
+    datetime = Column(Text)
     mvp_id = Column(Integer, ForeignKey('player.id'))
     team1 = Column(Integer, ForeignKey('team.id'))
     team2 = Column(Integer, ForeignKey('team.id'))
@@ -57,6 +58,18 @@ class MatchupMap(Base):
                 red_baron_pick, red_jungle_pick, red_mid_pick, red_dragon_pick, red_sup_pick,
                 blue_ban_1, blue_ban_2, blue_ban_3, blue_ban_4, blue_ban_5,
                 red_ban_1, red_ban_2, red_ban_3, red_ban_4, red_ban_5,
+                blue_pick_1, blue_pick_2, blue_pick_3, blue_pick_4, blue_pick_5,
+                red_pick_1, red_pick_2, red_pick_3, red_pick_4, red_pick_5,
+                blue_baron_kills, blue_jungle_kills, blue_mid_kills, blue_dragon_kills, blue_sup_kills,
+                red_baron_kills, red_jungle_kills, red_mid_kills, red_dragon_kills, red_sup_kills,
+                blue_baron_deaths, blue_jungle_deaths, blue_mid_deaths, blue_dragon_deaths, blue_sup_deaths,
+                red_baron_deaths, red_jungle_deaths, red_mid_deaths, red_dragon_deaths, red_sup_deaths,
+                blue_baron_assists, blue_jungle_assists, blue_mid_assists, blue_dragon_assists, blue_sup_assists,
+                red_baron_assists, red_jungle_assists, red_mid_assists, red_dragon_assists, red_sup_assists,
+                blue_baron_total_dmg, blue_jungle_total_dmg, blue_mid_total_dmg, blue_dragon_total_dmg, blue_sup_total_dmg,
+                red_baron_total_dmg, red_jungle_total_dmg, red_mid_total_dmg, red_dragon_total_dmg, red_sup_total_dmg,
+                blue_baron_total_gold, blue_jungle_total_gold, blue_mid_total_gold, blue_dragon_total_gold, blue_sup_total_gold,
+                red_baron_total_gold, red_jungle_total_gold, red_mid_total_gold, red_dragon_total_gold, red_sup_total_gold,
                 blue_baron_player, blue_jungle_player, blue_mid_player, blue_dragon_player, blue_sup_player,
                 red_baron_player, red_jungle_player, red_mid_player, red_dragon_player, red_sup_player):
         self.match_id = matchup_id
@@ -86,6 +99,16 @@ class MatchupMap(Base):
         self.red_ban_3 = red_ban_3
         self.red_ban_4 = red_ban_4
         self.red_ban_5 = red_ban_5
+        self.blue_pick_1 = blue_pick_1
+        self.blue_pick_2 = blue_pick_2
+        self.blue_pick_3 = blue_pick_3
+        self.blue_pick_4 = blue_pick_4
+        self.blue_pick_5 = blue_pick_5
+        self.red_pick_1 = red_pick_1
+        self.red_pick_2 = red_pick_2
+        self.red_pick_3 = red_pick_3
+        self.red_pick_4 = red_pick_4
+        self.red_pick_5 = red_pick_5
         self.blue_baron_player = blue_baron_player
         self.blue_jungle_player = blue_jungle_player
         self.blue_mid_player = blue_mid_player
@@ -96,35 +119,95 @@ class MatchupMap(Base):
         self.red_mid_player = red_mid_player
         self.red_dragon_player = red_dragon_player
         self.red_sup_player = red_sup_player
+        self.blue_baron_kills = blue_baron_kills
+        self.blue_jungle_kills = blue_jungle_kills
+        self.blue_mid_kills = blue_mid_kills
+        self.blue_dragon_kills = blue_dragon_kills
+        self.blue_sup_kills = blue_sup_kills
+        self.red_baron_kills = red_baron_kills
+        self.red_jungle_kills = red_jungle_kills
+        self.red_mid_kills = red_mid_kills
+        self.red_dragon_kills = red_dragon_kills
+        self.red_sup_kills = red_sup_kills
+        self.blue_baron_deaths = blue_baron_deaths
+        self.blue_jungle_deaths = blue_jungle_deaths
+        self.blue_mid_deaths = blue_mid_deaths
+        self.blue_dragon_deaths = blue_dragon_deaths
+        self.blue_sup_deaths = blue_sup_deaths
+        self.red_baron_deaths = red_baron_deaths
+        self.red_jungle_deaths = red_jungle_deaths
+        self.red_mid_deaths = red_mid_deaths
+        self.red_dragon_deaths = red_dragon_deaths
+        self.red_sup_deaths = red_sup_deaths
+        self.blue_baron_assists = blue_baron_assists
+        self.blue_jungle_assists = blue_jungle_assists
+        self.blue_mid_assists = blue_mid_assists
+        self.blue_dragon_assists = blue_dragon_assists
+        self.blue_sup_assists = blue_sup_assists
+        self.red_baron_assists = red_baron_assists
+        self.red_jungle_assists = red_jungle_assists
+        self.red_mid_assists = red_mid_assists
+        self.red_dragon_assists = red_dragon_assists
+        self.red_sup_assists = red_sup_assists
+        self.blue_baron_total_dmg = blue_baron_total_dmg
+        self.blue_jungle_total_dmg = blue_jungle_total_dmg
+        self.blue_mid_total_dmg = blue_mid_total_dmg
+        self.blue_dragon_total_dmg = blue_dragon_total_dmg
+        self.blue_sup_total_dmg = blue_sup_total_dmg
+        self.red_baron_total_dmg = red_baron_total_dmg
+        self.red_jungle_total_dmg = red_jungle_total_dmg
+        self.red_mid_total_dmg = red_mid_total_dmg
+        self.red_dragon_total_dmg = red_dragon_total_dmg
+        self.red_sup_total_dmg = red_sup_total_dmg
+        self.blue_baron_total_gold = blue_baron_total_gold
+        self.blue_jungle_total_gold = blue_jungle_total_gold
+        self.blue_mid_total_gold = blue_mid_total_gold
+        self.blue_dragon_total_gold = blue_dragon_total_gold
+        self.blue_sup_total_gold = blue_sup_total_gold
+        self.red_baron_total_gold = red_baron_total_gold
+        self.red_jungle_total_gold = red_jungle_total_gold
+        self.red_mid_total_gold = red_mid_total_gold
+        self.red_dragon_total_gold = red_dragon_total_gold
+        self.red_sup_total_gold = red_sup_total_gold
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     matchup_id = Column(Integer, ForeignKey('matchup.id'))
-    map_number = Column(Integer, ForeignKey('player.id'))
+    map_number = Column(Integer)
     blue_side = Column(Integer, ForeignKey('team.id'))
     red_side = Column(Integer, ForeignKey('team.id'))
-    length = Column(String)
+    length = Column(Text)
     winner = Column(Integer, ForeignKey('team.id'))
-    winner_side = Column(String)
-    blue_baron_pick = Column(String)
-    blue_jungle_pick = Column(String)
-    blue_mid_pick = Column(String)
-    blue_dragon_pick = Column(String)
-    blue_sup_pick = Column(String)
-    red_baron_pick = Column(String)
-    red_jungle_pick = Column(String)
-    red_mid_pick = Column(String)
-    red_dragon_pick = Column(String)
-    red_sup_pick = Column(String)
-    blue_ban_1 = Column(String)
-    blue_ban_2 = Column(String)
-    blue_ban_3 = Column(String)
-    blue_ban_4 = Column(String)
-    blue_ban_5 = Column(String)
-    red_ban_1 = Column(String)
-    red_ban_2 = Column(String)
-    red_ban_3 = Column(String)
-    red_ban_4 = Column(String)
-    red_ban_5 = Column(String)
+    winner_side = Column(Text)
+    blue_ban_1 = Column(Text)
+    red_ban_1 = Column(Text)
+    blue_ban_2 = Column(Text)
+    red_ban_2 = Column(Text)
+    blue_ban_3 = Column(Text)
+    red_ban_3 = Column(Text)
+    blue_pick_1 = Column(Text)
+    red_pick_1 = Column(Text)
+    red_pick_2 = Column(Text)
+    blue_pick_2 = Column(Text)
+    blue_pick_3 = Column(Text)
+    red_pick_3 = Column(Text)
+    blue_ban_4 = Column(Text)
+    red_ban_4 = Column(Text)
+    blue_ban_5 = Column(Text)
+    red_ban_5 = Column(Text)
+    red_pick_4 = Column(Text)
+    blue_pick_4 = Column(Text)
+    blue_pick_5 = Column(Text)
+    red_pick_5 = Column(Text)
+    blue_baron_pick = Column(Text)
+    blue_jungle_pick = Column(Text)
+    blue_mid_pick = Column(Text)
+    blue_dragon_pick = Column(Text)
+    blue_sup_pick = Column(Text)
+    red_baron_pick = Column(Text)
+    red_jungle_pick = Column(Text)
+    red_mid_pick = Column(Text)
+    red_dragon_pick = Column(Text)
+    red_sup_pick = Column(Text)
     blue_baron_player = Column(Integer, ForeignKey('player.id'))
     blue_jungle_player = Column(Integer, ForeignKey('player.id'))
     blue_mid_player = Column(Integer, ForeignKey('player.id'))
@@ -135,6 +218,56 @@ class MatchupMap(Base):
     red_jungle_player = Column(Integer, ForeignKey('player.id'))
     red_dragon_player = Column(Integer, ForeignKey('player.id'))
     red_sup_player = Column(Integer, ForeignKey('player.id'))
+    blue_baron_kills = Column(Integer, default=0)
+    blue_jungle_kills = Column(Integer, default=0)
+    blue_mid_kills = Column(Integer, default=0)
+    blue_dragon_kills = Column(Integer, default=0)
+    blue_sup_kills = Column(Integer, default=0)
+    red_baron_kills = Column(Integer, default=0)
+    red_jungle_kills = Column(Integer, default=0)
+    red_mid_kills = Column(Integer, default=0)
+    red_dragon_kills = Column(Integer, default=0)
+    red_sup_kills = Column(Integer, default=0)
+    blue_baron_deaths = Column(Integer, default=0)
+    blue_jungle_deaths = Column(Integer, default=0)
+    blue_mid_deaths = Column(Integer, default=0)
+    blue_dragon_deaths = Column(Integer, default=0)
+    blue_sup_deaths = Column(Integer, default=0)
+    red_baron_deaths = Column(Integer, default=0)
+    red_jungle_deaths = Column(Integer, default=0)
+    red_mid_deaths = Column(Integer, default=0)
+    red_dragon_deaths = Column(Integer, default=0)
+    red_sup_deaths = Column(Integer, default=0)
+    blue_baron_assists = Column(Integer, default=0)
+    blue_jungle_assists = Column(Integer, default=0)
+    blue_mid_assists = Column(Integer, default=0)
+    blue_dragon_assists = Column(Integer, default=0)
+    blue_sup_assists = Column(Integer, default=0)
+    red_baron_assists = Column(Integer, default=0)
+    red_jungle_assists = Column(Integer, default=0)
+    red_mid_assists = Column(Integer, default=0)
+    red_dragon_assists = Column(Integer, default=0)
+    red_sup_assists = Column(Integer, default=0)
+    blue_baron_total_dmg = Column(Integer, default=0)
+    blue_jungle_total_dmg = Column(Integer, default=0)
+    blue_mid_total_dmg = Column(Integer, default=0)
+    blue_dragon_total_dmg = Column(Integer, default=0)
+    blue_sup_total_dmg = Column(Integer, default=0)
+    red_baron_total_dmg = Column(Integer, default=0)
+    red_jungle_total_dmg = Column(Integer, default=0)
+    red_mid_total_dmg = Column(Integer, default=0)
+    red_dragon_total_dmg = Column(Integer, default=0)
+    red_sup_total_dmg = Column(Integer, default=0)
+    blue_baron_total_gold = Column(Integer, default=0)
+    blue_jungle_total_gold = Column(Integer, default=0)
+    blue_mid_total_gold = Column(Integer, default=0)
+    blue_dragon_total_gold = Column(Integer, default=0)
+    blue_sup_total_gold = Column(Integer, default=0)
+    red_baron_total_gold = Column(Integer, default=0)
+    red_jungle_total_gold = Column(Integer, default=0)
+    red_mid_total_gold = Column(Integer, default=0)
+    red_dragon_total_gold = Column(Integer, default=0)
+    red_sup_total_gold = Column(Integer, default=0)
 
 
 Base.metadata.create_all(engine)
